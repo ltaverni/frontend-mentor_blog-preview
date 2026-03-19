@@ -3,6 +3,11 @@
     src: local('Figtree-Medium'), url(./assets/fonts/static/Figtree-Medium.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: local('Figtree-ExtraBold'), url(./assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+
 body,
 html {
     width: 100%;
@@ -52,9 +57,20 @@ html,
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
+    font-family: 'Figtree-ExtraBold';
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .date {
     margin: 10px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.title {
+    margin: 10px 0px 10px 0px;
+    font-family: 'Figtree-ExtraBold';
+    font-size: 26px;
+    font-weight: 500;
+    color: hsl(47, 88%, 63%);
 }
