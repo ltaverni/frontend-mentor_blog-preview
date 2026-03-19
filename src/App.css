@@ -36,7 +36,7 @@ html,
     align-items: flex-start;
     background-color: hsl(0, 0%, 100%);
     width: 350px;
-    padding: 25px;
+    padding: 20px;
     border-radius: 20px;
 }
 
@@ -80,4 +80,28 @@ html,
     font-size: 16px;
     color: hsl(0, 0%, 42%);
     line-height: 25px;
+}
+
+.footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    width: 32px;
+    height: 32.5px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+
+.name {
+    margin-left: 10px;
+    font-family: 'Figtree-ExtraBold';
+    font-size: 14px;
+    font-weight: 500px;
 }
