@@ -37,11 +37,15 @@ html,
     background-color: hsl(0, 0%, 100%);
     width: 350px;
     padding: 20px;
+    border: solid black 1px;
     border-radius: 20px;
+    box-shadow: 8px 8px;
 }
 
 .image {
     align-self: center;
+    width: 100%;
+    height: auto;
 }
 
 .image img {
