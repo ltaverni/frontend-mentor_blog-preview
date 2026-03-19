@@ -22,5 +22,33 @@ html,
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
     background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.image {
+    align-self: center;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.category {
+    width: 100px;
+    height: 35px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+.date {
+    margin: 10px 0px 10px 0px;
 }
