@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import picture from './assets/images/image-avatar.webp'
+import image from './assets/images/illustration-article.svg'
 import './App.css'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='picture'>
-                <img></img>
+                <img src={picture}></img>
             </div>
             <div className='name'>
                 Greg Hooper
@@ -49,7 +51,7 @@ const Category = () => {
 const Image = () => {
     return (
         <div className='image'>
-            <img></img>
+            <img src={image}></img>
         </div>
     )
 }
